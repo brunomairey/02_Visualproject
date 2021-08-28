@@ -1,0 +1,51 @@
+
+     
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("header.jpg");
+  background-position: center;
+    background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+#login-column {
+   position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card {
+      margin: 10px 5px 10px 5px;
+      padding: 10px 10px 10px 10px;
+      transition: all 0.5s;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+      background-color: #DCE1DB;
+     
+
+    }
+
+    .card-body{
+      background-color: #0D8FDA;
+    }
+
+
+   
