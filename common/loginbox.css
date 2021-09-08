@@ -1,10 +1,8 @@
-
-     
-
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("header.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("header.jpg");
   background-position: center;
-    background-repeat: no-repeat;
+  background-repeat: no-repeat;
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -22,30 +20,24 @@
 }
 
 #login-column {
-   position: absolute;
+  position: absolute;
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
-
 }
 
-    .card:hover {
-      transform: scale(1.05);
-    }
+.card:hover {
+  transform: scale(1.05);
+}
 
-    .card {
-      margin: 10px 5px 10px 5px;
-      padding: 10px 10px 10px 10px;
-      transition: all 0.5s;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
-      background-color: #DCE1DB;
-     
+.card {
+  margin: 10px 5px 10px 5px;
+  padding: 10px 10px 10px 10px;
+  transition: all 0.5s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+  background-color: #dce1db;
+}
 
-    }
-
-    .card-body{
-      background-color: #0D8FDA;
-    }
-
-
-   
+.card-body {
+  background-color: #0d8fda;
+}
